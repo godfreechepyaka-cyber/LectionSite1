@@ -1,6 +1,5 @@
 packages:
   - 'slides/*'
 
-# Явно разрешаем запускать build-скрипты только безопасным пакетам
 onlyBuiltDependencies:
   - esbuild
