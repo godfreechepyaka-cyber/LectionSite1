@@ -46,19 +46,23 @@ jobs:
 
       - name: Prepare Quartz content
         run: |
-          cd quartz/content
-          rm -rf vault
-          mkdir -p vault
+          rm -rf quartz/content/vault
+          mkdir -p quartz/content/vault
           rsync -av \
             --exclude='.obsidian' \
             --exclude='.git' \
+            --exclude='.github' \
             --exclude='node_modules' \
             --exclude='slides' \
             --exclude='quartz' \
             --exclude='dist' \
             --exclude='public' \
-            --exclude='.github' \
-            $GITHUB_WORKSPACE/ vault/
+            --exclude='.gitignore' \
+            --exclude='package.json' \
+            --exclude='pnpm-lock.yaml' \
+            --exclude='pnpm-workspace.yaml' \
+            --exclude='.npmrc' \
+            "$GITHUB_WORKSPACE/" quartz/content/vault/
 
       - name: Build Quartz
         working-directory: quartz

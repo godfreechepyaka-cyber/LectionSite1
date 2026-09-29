@@ -911,7 +911,6 @@ layout: section
 
 # Главное окно Writer
 
-<!-- ![Главное окно Writer](/screenshots/01-main-window.png) -->
 
 **Описание скриншота:** Стандартный интерфейс LibreOffice Writer:
 - **Строка заголовка** (Title Bar) — имя документа
@@ -930,7 +929,6 @@ layout: section
 
 # Выбор варианта интерфейса
 
-<!-- ![Выбор интерфейса](/screenshots/02-ui-selector.png) -->
 
 **Описание скриншота:** Диалог **Вид → Пользовательский интерфейс** (View → User Interface):
 - Левая панель: **Standard Toolbar**, **Tabbed**, **Tabbed Compact**, **Groupedbar Compact**, **Contextual Single**, **Single Toolbar**, **Sidebar**
@@ -945,7 +943,6 @@ layout: section
 
 # Tabbed Compact
 
-<!-- ![Tabbed Compact UI](/screenshots/03-tabbed-ui.png) -->
 
 **Описание скриншота:** Интерфейс Tabbed Compact:
 - Вкладки: **Файл**, **Главная**, **Вставка**, **Макет**, **Ссылки**, **Рецензирование**, **Вид** (File, Home, Insert, Layout, References, Review, View)
@@ -961,7 +958,6 @@ layout: section
 
 # Боковая панель (Sidebar)
 
-<!-- ![Боковая панель](/screenshots/04-sidebar.png) -->
 
 **Описание скриншота:** Боковая панель Writer:
 - Активация: **Вид → Боковая панель** (View → Sidebar) или **Ctrl+F5**
@@ -977,7 +973,6 @@ layout: section
 
 # Настройка панелей инструментов
 
-<!-- ![Настройка панелей](/screenshots/05-toolbar-customize.png) -->
 
 **Описание скриншота:** Диалог **Сервис → Настроить** (Tools → Customize):
 - Вкладка **Панели инструментов** (Toolbars)
@@ -994,7 +989,6 @@ layout: section
 
 # Параметры Writer
 
-<!-- ![Диалог параметров](/screenshots/06-options-dialog.png) -->
 
 **Описание скриншота:** Диалог **Сервис → Параметры** (Tools → Options):
 - **LibreOffice → Вид** (View): тема, размер значков
