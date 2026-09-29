@@ -1,55 +1,39 @@
-name: Deploy slides
-
+name: Deploy pages
 on:
+  # Позволяет запускать workflow вручную из вкладки Actions
   workflow_dispatch:
+  # Запускает workflow при пуше в ветку main
   push:
     branches: [main]
-
+# Разрешения, необходимые для деплоя на GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
-
+# Гарантирует, что одновременно будет выполняться только один деплой
 concurrency:
   group: pages
   cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: F2L3
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 11
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-          cache: pnpm
-          cache-dependency-path: F2L3/pnpm-lock.yaml
-
+      - name: Setup @antfu/ni
+        run: npm i -g @antfu/ni
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
+        run: nci
       - name: Build
-        run: pnpm build -- --base /${{ github.event.repository.name }}/F2L3/
-
+        # Флаг --base обязателен для корректной работы на GitHub Pages
+        run: nr build --base /${{github.event.repository.name}}/
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: F2L3/dist
-
+          path: dist
   deploy:
     environment:
       name: github-pages
