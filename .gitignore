@@ -14,3 +14,5 @@ quartz/.quartz-cache/
 .obsidian/workspace*
 .obsidian/cache
 .DS_Store
+quartz/content/vault
+quartz/.github/
