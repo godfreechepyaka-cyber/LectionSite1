@@ -1,0 +1,17 @@
+{
+  "name": "f2l3",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides_F2L3.md --open",
+    "build": "slidev build slides_F2L3.md",
+    "export": "slidev export slides_F2L3.md --output lecture-F2L3.pdf",
+    "export:png": "slidev export slides_F2L3.md --format png --output lecture-F2L3"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.33"
+  }
+}
