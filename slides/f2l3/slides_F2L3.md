@@ -1064,7 +1064,7 @@ graph TD
 
 <div class="text-left text-sm">
 
-**9 вариантов** (см. файл `homework/09-variants.md`):
+**9 вариантов** (см. файл [09-variants.md](./homework/09-variants.md)):
 
 1. Документ с автооглавлением
 2. Настройка Tabbed Compact
