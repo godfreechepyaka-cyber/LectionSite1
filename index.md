@@ -5,7 +5,7 @@
 
 ## Домашние задания
 
-- [F2L3 — 9 вариантов](/homework/f2l3/09-variants 
+**9 вариантов** ([открыть в браузере](https://godfreechepyaka-cyber.github.io/LectionSite1/homework/f2l3/09-variants)):
 
 ## Презентации
 
