@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev slides_F2L3.md --open",
-    "build": "slidev build slides_F2L3.md --base ./",
+    "build": "slidev build slides_F2L3.md --base /LectionSite1/slides/f2l3/",
     "export": "slidev export slides_F2L3.md --output lecture-F2L3.pdf",
     "export:png": "slidev export slides_F2L3.md --format png --output lecture-F2L3"
   },
