@@ -1,9 +1,7 @@
 ---
-title: Домашнее задание F2L3 — LibreOffice Writer
+title: Домашнее задание
 tags:
   - homework
-  - F2L3
-  - LibreOffice
 ---
 
 # Домашнее задание — LibreOffice Writer

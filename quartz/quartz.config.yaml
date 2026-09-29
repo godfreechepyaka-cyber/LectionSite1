@@ -9,31 +9,30 @@ configuration:
   locale: ru-RU
   baseUrl: localhost:8080
   ignorePatterns:
-    - private
-    - templates
-    - .obsidian
-    - slides
-    - node_modules
-    - quartz
-    - build.mjs
-    - package.json
-    - package-lock.json
-    - pnpm-lock.yaml
-    - pnpm-workspace.yaml
-    - README.md
-    - CODE_OF_CONDUCT.md
-    - Dockerfile
-    - LICENSE.txt
-    - docs
-    - vault/slides
-    - vault/.obsidian
-    - vault/quartz
-    - vault/node_modules
-    - vault/build.mjs
-    - vault/package.json
-    - vault/pnpm-lock.yaml
-    - vault/pnpm-workspace.yaml
-    - vault/docs
+    - ".obsidian"
+    - ".git"
+    - ".github"
+    - "node_modules"
+    - "slides"
+    - "quartz"
+    - "dist"
+    - "public"
+    - "package.json"
+    - "pnpm-lock.yaml"
+    - "pnpm-workspace.yaml"
+    - ".npmrc"
+    - ".gitignore"
+    - "build.mjs"
+    - "README.md"
+    - "Dockerfile"
+    - "LICENSE.txt"
+    - "CODE_OF_CONDUCT.md"
+    - "docs"
+    - "**/node_modules/**"
+    - "**/.obsidian/**"
+    - "**/.git/**"
+    - "**/dist/**"
+    - "**/public/**"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true

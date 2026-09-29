@@ -1064,7 +1064,7 @@ graph TD
 
 <div class="text-left text-sm">
 
-**9 вариантов** ([открыть в браузере](/LectionSite1/homework/F2L3/09-variants)):
+**9 вариантов** ([открыть в браузере](https://godfreechepyaka-cyber.github.io/LectionSite1/homework/f2l3/09-variants)):
 
 1. Документ с автооглавлением
 2. Настройка Tabbed Compact
