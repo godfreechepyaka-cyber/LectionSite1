@@ -4,3 +4,13 @@ dist
 *.log
 .slidev
 .obsidian/
+
+node_modules/
+dist/
+*.log
+quartz/public/
+quartz/node_modules/
+quartz/.quartz-cache/
+.obsidian/workspace*
+.obsidian/cache
+.DS_Store

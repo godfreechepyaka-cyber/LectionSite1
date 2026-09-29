@@ -1,0 +1,11 @@
+{
+  "name": "lection-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:slides": "pnpm -r --filter \"./slides/*\" build",
+    "dev:f2l3": "pnpm --filter f2l3 dev",
+    "build:quartz": "npx quartz build",
+    "preview:quartz": "npx quartz build --serve"
+  }
+}
