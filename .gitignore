@@ -16,3 +16,4 @@ quartz/.quartz-cache/
 .DS_Store
 quartz/content/vault
 quartz/.github/
+quartz/static/slides_*/

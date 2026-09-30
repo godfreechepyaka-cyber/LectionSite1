@@ -1,0 +1,17 @@
+{
+  "name": "f2l4",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides_F2L4.md --open",
+    "build": "slidev build slides_F2L4.md --base /LectionSite1/slides/f2l4/",
+    "export": "slidev export slides_F2L4.md --output lecture-F2L4.pdf",
+    "export:png": "slidev export slides_F2L4.md --format png --output lecture-F2L4"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.33"
+  }
+}

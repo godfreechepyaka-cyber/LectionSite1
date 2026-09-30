@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:slides": "pnpm --filter f2l3 build",
+    "build:slides": "pnpm --filter f2l3 build && pnpm --filter f2l4 build",
     "dev:f2l3": "pnpm --filter f2l3 dev",
     "build:quartz": "npx quartz build",
     "preview:quartz": "npx quartz build --serve"
