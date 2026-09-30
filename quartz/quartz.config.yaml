@@ -3,7 +3,7 @@
 configuration:
   pageTitle: Мои лекции
   pageTitleSuffix: ""
-  enableSPA: true
+  enableSPA: false
   enablePopovers: true
   analytics: null
   locale: ru-RU
