@@ -1,5 +1,6 @@
 ---
-title:
+cssclasses:
+  - hide-title
 ---
 
 
