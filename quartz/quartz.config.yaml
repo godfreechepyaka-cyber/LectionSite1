@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 
 configuration:
-  pageTitle: «Информационные технологии в профессиональной деятельности»
+  pageTitle: Мои лекции
   pageTitleSuffix: ""
   enableSPA: false
   enablePopovers: true
@@ -153,9 +153,7 @@ plugins:
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/explorer"
-    enabled: false
-    options:
-      title: ""          # <-- Добавьте эту строку, чтобы убрать надпись "Проводник"
+    enabled: true
     layout:
       position: left
       priority: 50
