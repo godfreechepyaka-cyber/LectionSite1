@@ -292,10 +292,10 @@ layout:
         beforeBody: []
         left: []
         right: []
-      content:
-        positions:
-          left: []
-          right: []
+    content:
+      positions:
+        left: []
+        right: []
     folder:
       exclude:
         - reader-mode
